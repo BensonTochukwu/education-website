@@ -1,0 +1,176 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/44a3794737.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+    <div class="logo"><img src="images/Logo.png" alt=""></div>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li> 
+            <li><a href="#portfolio">Log in</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+    </nav>
+     <div class="header-text">
+        <h1>Welcome to the <span>Education Hub</span></h1> 
+        <p>Your gateway to fun facts and useful resources!</p>
+
+
+      </div>
+</div>
+    </div>
+
+<!-----------about----------->
+   <div id="about">
+
+
+      <div class="container">
+         <div class="row">
+              <div class="about-col-1">
+                <img src="images/user.png" alt="">
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>Welcome to Education Hub, a dedicated platform designed to foster a love for learning and help individuals achieve their educational goals. Our mission is to create an engaging and accessible learning environment where people of all ages and backgrounds can expand their knowledge, develop new skills, and unlock their full potential.
+
+                  At Education Hub, we offer a wide range of carefully curated courses, tutorials, and educational resources across various fields. Whether you're a student looking to enhance your academic performance, a professional seeking to advance your career, or simply someone passionate about lifelong learning, we have something for everyone.
+                  
+                  Our team of experienced educators, industry professionals, and content creators work tirelessly to bring you high-quality, up-to-date content designed to inspire, challenge, and empower. We believe in the transformative power of education and are committed to making learning enjoyable, interactive, and effective.</p>
+
+    <div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab(event, 'skills')">Our Values</p>
+<p class="tab-links" onclick="opentab(event, 'experience')">Our Mission</p>
+<p></p>
+<p></p>
+    </div>
+
+    <div class="tab-content active-tab" id="skills">
+        <ul>
+            <li><span>Quality Education</span><br>We prioritize providing well-researched, comprehensive, and engaging educational content.</li>
+            <li><span>Inclusivity</span><br> Education should be available to everyone. We strive to create a platform that welcomes learners from all walks of life.</li>
+            <li><span>Innovation</span><br>We embrace new teaching methods and technologies to enhance the learning experience.</li>
+            <li><span>Community</span><br>We aim to build a supportive and collaborative community where learners, educators, and professionals can connect and grow together.</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="experience">
+        <ul>
+            <li><span>Make education accessible</span><br>Providing high-quality resources for learners of all backgrounds and ages.</li>
+            <li><span>Encourage lifelong learning</span><br>Empowering individuals to continuously improve and grow throughout their lives.</li>
+            <li><span>Foster critical thinking</span><br>Helping learners develop essential problem-solving skills and analytical thinking.</li>
+            <li><span>Support personal development</span><br>Offering courses and content that help learners achieve their personal and professional goals.</li>
+
+        </ul>
+    </div>
+              </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div id="services">
+    <div class="container">
+        <div class="services-list">
+          <div>
+            <h2>How Education Hub Protects Data</h2>
+            <p>We are dedicated to protecting your students’ data with a comprehensive security program that starts with
+                 “secure by design” principles at the inception of our products and extends through third-party penetration testing,
+                  robust cloud security, and a fully staffed 24x7x365 Security Operations Center. Our products are independently validated by third-party auditors
+                  , ensuring your data is always protected with Education Hub.</p>
+            <a href="">Learn More</a>
+          </div>
+          <div>
+            <h2>Connecting every student to a world of learning</h2>
+            <p>Every day we work to ensure that students everywhere have instant access to secure digital learning experiences, powered by their unified digital identity.</p>
+            <a href="">Learn More</a>
+            
+
+          </div>
+        </div>
+    </div>
+   </div>
+
+
+   <!------------------portfolio---------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Student.png" alt="">
+                <div class="layer">
+                    <h3>Log in as Student</h3>
+                    <p>Access personalized learning resources, track progress, and participate in interactive activities.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            
+            <div class="work">
+                <img src="images/Teacher.png" alt="">
+                <div class="layer">
+                    <h3>Log in as Teacher</h3>
+                    <p>Manage courses, upload educational content, and create assignments or quizzes</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Sign Up</a>
+    </div>
+</div>
+
+
+<!----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row"> 
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Us</h1>
+              <p> <i class="fa-solid fa-paper-plane"></i>educationhub@gmail.com</p>
+              <p><i class="fa-solid fa-phone-volume"></i>+234 9032675331</p> 
+              <div class="social-icon">
+                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                 <a href=""><i class="fa-brands fa-instagram"></i></a>
+                 <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                 <a href=""><i class="fa-brands fa-upwork"></i></a>
+                 <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <a href="" download class="btn btn2">Live Chat</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form> 
+
+               <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ Education Hub</p>
+    </div>
+</div>
+
+<script src="main.js"></script>
+
+<script>
+   
+  </script>
+</body>
+</html>
